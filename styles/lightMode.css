@@ -1,0 +1,76 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  -webkit-box-pack: center; 
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FFFFFF;
+  margin: 10%;
+}
+
+
+.navbar {
+  position: fixed;
+  color: black;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: saturate(180%) blur(69px);
+  -webkit-backdrop-filter: saturate(180%) blur(69px);
+  font-weight: bold;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  align-items:center;
+  filter: drop-shadow(0px 100px 80px rgba(215, 215, 215, 0.06)), drop-shadow(0px 50.0488px 40.0391px rgba(215, 215, 215, 0.04562)), drop-shadow(0px 30.1471px 24.1177px rgba(215, 215, 215, 0.0390953)), drop-shadow(0px 19.3198px 15.4559px rgba(215, 215, 215, 0.0342537)), drop-shadow(0px 12.5216px 10.0172px rgba(215, 215, 215, 0.03)), drop-shadow(0px 7.88218px 6.30574px rgba(215, 215, 215, 0.0257463)), drop-shadow(0px 4.5288px 3.62304px rgba(215, 215, 215, 0.0209047)), drop-shadow(0px 1.99324px 1.59459px rgba(215, 215, 215, 0.01438));
+  -webkit-filter: drop-shadow(0px 100px 80px rgba(215, 215, 215, 0.06)), drop-shadow(0px 50.0488px 40.0391px rgba(215, 215, 215, 0.04562)), drop-shadow(0px 30.1471px 24.1177px rgba(215, 215, 215, 0.0390953)), drop-shadow(0px 19.3198px 15.4559px rgba(215, 215, 215, 0.0342537)), drop-shadow(0px 12.5216px 10.0172px rgba(215, 215, 215, 0.03)), drop-shadow(0px 7.88218px 6.30574px rgba(215, 215, 215, 0.0257463)), drop-shadow(0px 4.5288px 3.62304px rgba(215, 215, 215, 0.0209047)), drop-shadow(0px 1.99324px 1.59459px rgba(215, 215, 215, 0.01438));
+}
+
+.navbar li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  padding-left: 2em;
+}
+
+.navbar .mainLogo {
+  font-weight: 800;
+  font-size: 28px;
+  padding-left: 0em;
+}
+
+.navbar .navbarContents {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+nav {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainMessage {
+  width: 591px;
+  height: 231px;
+  padding-top: 200px;
+  line-height: 57px;
+  letter-spacing: 0.005em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  background: linear-gradient(110.49deg, #50B6F0 11.04%, #E77DF0 51.21%, #DD911F 89.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  position: inherit;
+}
+/*# sourceMappingURL=lightMode.css.map */
