@@ -6,10 +6,13 @@ body {
 }
 
 #container {
-    width: 60%;
+    width: 75%;
 }
 
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 100;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.4);
@@ -18,7 +21,8 @@ body {
     font-weight: bold;
     font-size: 24px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
     filter: drop-shadow(0px 100px 80px rgba(215, 215, 215, 0.06)), drop-shadow(0px 50.0488px 40.0391px rgba(215, 215, 215, 0.04562)), drop-shadow(0px 30.1471px 24.1177px rgba(215, 215, 215, 0.0390953)), drop-shadow(0px 19.3198px 15.4559px rgba(215, 215, 215, 0.0342537)), drop-shadow(0px 12.5216px 10.0172px rgba(215, 215, 215, 0.03)), drop-shadow(0px 7.88218px 6.30574px rgba(215, 215, 215, 0.0257463)), drop-shadow(0px 4.5288px 3.62304px rgba(215, 215, 215, 0.0209047)), drop-shadow(0px 1.99324px 1.59459px rgba(215, 215, 215, 0.01438));
     -webkit-filter: drop-shadow(0px 100px 80px rgba(215, 215, 215, 0.06)), drop-shadow(0px 50.0488px 40.0391px rgba(215, 215, 215, 0.04562)), drop-shadow(0px 30.1471px 24.1177px rgba(215, 215, 215, 0.0390953)), drop-shadow(0px 19.3198px 15.4559px rgba(215, 215, 215, 0.0342537)), drop-shadow(0px 12.5216px 10.0172px rgba(215, 215, 215, 0.03)), drop-shadow(0px 7.88218px 6.30574px rgba(215, 215, 215, 0.0257463)), drop-shadow(0px 4.5288px 3.62304px rgba(215, 215, 215, 0.0209047)), drop-shadow(0px 1.99324px 1.59459px rgba(215, 215, 215, 0.01438));
 
@@ -41,8 +45,7 @@ body {
 
     .navbarContents {
         font-weight: 200;
-        display: flex;
-        flex-direction: row;
+        font-size: 16px;
     }
 }
 
